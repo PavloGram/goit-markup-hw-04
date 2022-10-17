@@ -384,8 +384,10 @@ footer {
 }
 .footer-list {
   list-style-type: none;
-  margin-top: 20px;
-}
+  }
+  .footer-list-top{
+    margin-top: 20px;
+  }
 .footer-list > li:not(:last-child) {
   margin-bottom: 9px;
 }
