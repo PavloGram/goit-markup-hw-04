@@ -418,8 +418,8 @@ footer {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  line-height: 100%;
-  vertical-align: top;
+  /* line-height: 100%; */
+  /* vertical-align: top; */
   letter-spacing: 0.03em;
   color: var(--white-text-color);
   padding-top: 12px;
@@ -486,6 +486,7 @@ footer {
 .portfolio-button {
   cursor: pointer;
   padding: 6px 22px;
+  border-radius: 4px;
 }
 .portfolio-list > .item:not(:last-child) {
   margin-right: 8px;
@@ -517,8 +518,8 @@ footer {
   margin-bottom: 30px;
 }
 .portfolio-list-color:hover {
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.6),
-    0px 1px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.6);
+    /* 0px 1px 1px rgba(0, 0, 0, 0.12); */
 }
 
 .portfolio-list-color:nth-child(3n + 3) {
