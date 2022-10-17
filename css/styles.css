@@ -342,15 +342,16 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 }
-.clients-item:hover,
-.clients-item:focus,
-.clients-item:active {
+.clients-link:hover,
+.clients-link:focus,
+.clients-link:active {
   border: 1px solid var(--hover-link-button-color);
   border-radius: 4px;
-}
-.clients-item:hover .clients-icon,
-.clients-item:focus .clients-icon,
-.clients-item:active .clients-icon {
+  }
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon,
+.clients-link:active .clients-icon {
   fill: var(--hover-link-button-color);
 }
 
