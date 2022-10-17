@@ -5,6 +5,7 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --basic-icon-color: #afb1b8;
   --white-icon-color: #ffffff;
+  --basic-background-color: #f5f4fa;
 }
 /* index.html */
 body {
@@ -181,7 +182,16 @@ ul {
   display: flex;
   list-style-type: none;
 }
+.benefits-icon {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--basic-background-color);
+  margin-bottom: 30px;
 
+}
 .benefits-list-title {
   font-weight: 700;
   font-size: 14px;
@@ -189,11 +199,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-}
-.benefits-icon {
-  display: block;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .benefits-li:not(:last-child) {
   margin-right: 30px;
@@ -232,7 +237,8 @@ ul {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: var(--basic-background-color);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .team-title {
@@ -418,9 +424,7 @@ footer {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  /* line-height: 100%; */
-  /* vertical-align: top; */
-  letter-spacing: 0.03em;
+   letter-spacing: 0.03em;
   color: var(--white-text-color);
   padding-top: 12px;
   text-transform: uppercase;
@@ -518,9 +522,10 @@ footer {
   margin-bottom: 30px;
 }
 .portfolio-list-color:hover {
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.6);
-    /* 0px 1px 1px rgba(0, 0, 0, 0.12); */
-}
+  box-shadow:
+1px 4px 6px rgba(0, 0, 0, 0.16),
+0px 4px 4px rgba(0, 0, 0, 0.06);
+} 
 
 .portfolio-list-color:nth-child(3n + 3) {
   margin-right: 0;
