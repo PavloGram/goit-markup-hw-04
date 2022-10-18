@@ -170,9 +170,7 @@ ul {
 .hero-button:active {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  background-color: #188ce8;
-}
-.hero-button {
-  cursor: pointer;
+cursor: pointer;
 }
 
 .section-benefits {
